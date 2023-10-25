@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav-menu a{
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+#main-section{
+    width: 100%;
+    text-align: center;
+    margin-top: 160px;
+ 
+}
+.heading{
+    
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 70px;
+}
+
+.images-section{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    column-gap: 30px;
+    row-gap: 50px; 
+}
+.images-section img{
+    width: 370px;
+}
+
+.subtitle{
+    max-width: 400px;
+    margin: auto;
+
+}
+
+@media(max-width: 500px){
+    .heading{
+        padding: 40px;
+        font-size: 45px;
+        margin-bottom: 40px;
+    }
+    #main-section{
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 375px){
+    .images-section img{
+        width: 300px;
+    }
+}
